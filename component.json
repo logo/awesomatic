@@ -1,17 +1,19 @@
 {
+  "logo": "Awesomatic",
   "name": "awesomatic",
-  "version": "0.0.1",
   "repo": "logo/awesomatic",
-  "images": [
-    "images/logo-black.svg",
-    "images/logo-white.svg",
-    "images/logo.svg"
-  ],
+  "description": "The Awesomatic logo.",
+  "version": "0.0.2",
+  "license": "MIT",
   "styles": [
     "index.css"
   ],
-  "development": {
+  "images": [
+    "images/logo.svg",
+    "images/logo-black.svg",
+    "images/logo-white.svg"
+  ],
+  "dependencies": {
     "logo/logo": "*"
-  },
-  "license": "MIT"
+  }
 }
