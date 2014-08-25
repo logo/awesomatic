@@ -1,22 +1,2 @@
-
-/**
- * Awesomatic
- */
-
-.logo[data-logo="Awesomatic"] {
-  width: 4.864294174em;
-  /* (718.74/177.31) * (1+.1+.1) - 0 */
-}
-
-.logo[data-logo="Awesomatic"] > * {
-  background-image: url(images/logo.svg);
-  margin: -.1em 0;
-}
-
-.logo[data-logo="Awesomatic"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="Awesomatic"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
